@@ -1,0 +1,28 @@
+path {
+  fill: red;
+  stroke: white;
+  stroke-width: 1.5;
+}
+
+path:hover {
+  fill: papayawhip;
+}
+
+#tooltip {
+  background-color: white;
+  width: 256px;
+  display: none;
+  position: fixed;
+  overflow: hidden;
+  pointer-events: none;
+  border-radius: 10px;
+  box-shadow: -1px 2px 2px grey;
+}
+
+#tooltip>p {
+  text-align: center;
+}
+
+li {
+  list-style-type: none;
+}
